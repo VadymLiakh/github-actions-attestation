@@ -15,4 +15,3 @@ def test_average():
 def test_average_empty():
     with pytest.raises(ValueError):
         calculate_average([])
-
